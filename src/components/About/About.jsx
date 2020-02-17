@@ -38,10 +38,10 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || "I'm Software developer with experience on both ends of the stack with testing!"}
+                  {paragraphOne || "I'm Software developer with experience on both ends of the stack"}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo ||
+                  {paragraphTwo || 'My skills',
                     'JavaScript, React, HTML/CSS, Node, Express, Python, PostgreSQL, Jest'}
                 </p>
                 <p className="about-wrapper__info-text">

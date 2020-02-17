@@ -2,15 +2,15 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '', // e.g: 'Name | Developer'
+  title: 'Anthony ', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
 
 // HERO DATA
 export const heroData = {
-  title: '',
-  name: '',
+  title: 'Hi, my name is',
+  name: 'Anthony',
   subtitle: '',
   cta: '',
 };
@@ -59,7 +59,7 @@ export const projectsData = [
 export const contactData = {
   cta: '',
   btn: '',
-  email: '',
+  email: 'rende718@gmail.com',
 };
 
 // FOOTER DATA
@@ -68,27 +68,27 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: '',
+      url: 'https://www.twitter.com/rendeDev',
     },
     {
       id: uuidv1(),
       name: 'codepen',
-      url: '',
+      url: 'https://codepen.io/Jazz-code',
     },
     {
       id: uuidv1(),
       name: 'linkedin',
-      url: '',
+      url: 'https://www.linkedin.com/in/anthony-rende/',
     },
     {
       id: uuidv1(),
       name: 'github',
-      url: '',
+      url: 'https://www.github.com/jazz-code',
     },
   ],
 };
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
 };
