@@ -41,11 +41,11 @@ const About = () => {
                   {paragraphOne || "I'm Software developer with experience on both ends of the stack"}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphTwo || 'My skills',
-                    'JavaScript, React, HTML/CSS, Node, Express, Python, PostgreSQL, Jest'}
+                  {paragraphTwo ||
+                    'My main skills are JavaScript, React, HTML/CSS, Node, Express, Python, PostgreSQL, Jest'}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || "When I’m not coding, I love to sharpen my guitar skills , escape into some sci-fi, experience new places around NYC, and indulge my love for music"}
+                  {paragraphThree || "When I’m not coding-- I love to escape into some sci-fi, sharpen my guitar skills, or experience new places around NYC and indulge my love for live music"}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">
