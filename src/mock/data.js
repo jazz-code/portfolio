@@ -37,12 +37,12 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'celebdoa.png',
+    title: 'Celeb Dead or Alive',
+    info: ' Celeb DOA is a cheeky web trivia app built in 4 days that allows users to test their knowledge of celebrities.',
+    info2: 'It has a simple and clean UI built in React that tracks a users score/data via Context API and persisted in a Node/Express backend database deployed to Heroku.',
     url: '',
-    repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
+    repo: 'https://github.com/jazz-code/Front-End', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
