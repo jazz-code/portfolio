@@ -38,14 +38,14 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || "I'm Software developer with experience on both ends of the stack"}
+                  {paragraphOne || "I'm a Software Developer with experience on both ends of the stack, focused on providing meaningful, genuine contributions to colleagues, stakeholders, and end-users."}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
-                    'My main skills are JavaScript, React, HTML/CSS, Node, Express, Python, PostgreSQL, Jest'}
+                    'Experienced in building products in a team setting with daily collaboration in software development subjects. My main skills are JavaScript, ES6+, React, HTML/CSS, Node/Express, REST, Python, SQL, PostgreSQL, Jest, Linux '}
                 </p>
                 <p className="about-wrapper__info-text">
-                  {paragraphThree || "When I’m not coding-- I love to escape into some sci-fi, sharpen my guitar skills, or experience new places around NYC and indulge my love for live music"}
+                  {paragraphThree || "When I’m not coding-- I love to consume sci-fi, sharpen my guitar skills, or experience new places around NYC and indulge my love for live music"}
                 </p>
                 {resume && (
                   <span className="d-flex mt-3">

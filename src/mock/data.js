@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: 'Anthony Rennde', // e.g: 'Name | Developer'
+  title: 'Anthony Rende', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portoflio', // e.g: Welcome to my website
 };
@@ -30,8 +30,8 @@ export const projectsData = [
     id: uuidv1(),
     img: 'welldone.png',
     title: 'WellDone',
-    info: ' - WellDone International, a non-profit working to improve global access to clean water by providing reports on well activity that may facilitate technical assistance to malfunctioning wells. Refactored existing codebase and built onto an existing frontend utilizing React with SemanticUI & EmotionCSS. Key contributor in successful deployment of a data persisting backend utilizing Node, Express, PostgreSQL and Heroku deployment.',
-    info2: 'Login/Passowrd: admin@email / password (Super secure! Please allow 30 seconds for database to fire up from its sleeping state)',
+    info: ' WellDone International, a non-profit working to improve global access to clean water by providing reports on well activity that may facilitate technical assistance to malfunctioning wells. Refactored existing codebase and built onto an existing frontend utilizing React with SemanticUI & EmotionCSS. Key contributor in successful deployment of a data persisting backend utilizing Node, Express, PostgreSQL and Heroku deployment.',
+    info2: 'Login / Passowrd: admin@email / password',
     url: 'https://well-done-h9vshme77.now.sh',
     repo: 'https://github.com/labs17-WellDone/backend', // if no repo, the button will not show up
   },
@@ -41,7 +41,7 @@ export const projectsData = [
     title: 'Celeb Dead or Alive',
     info: ' Celeb DOA is a cheeky web trivia app built in 4 days that allows users to test their knowledge of celebrities.',
     info2: 'It has a simple and clean UI built in React that tracks a users score/data via Context API and persisted in a Node/Express backend database deployed to Heroku.',
-    url: '',
+    url: 'https://celeb-dead.netlify.com/',
     repo: 'https://github.com/jazz-code/Front-End', // if no repo, the button will not show up
   },
   {
