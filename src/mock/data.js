@@ -40,16 +40,16 @@ export const projectsData = [
     img: 'celebdoa.png',
     title: 'Celeb Dead or Alive',
     info: ' Celeb DOA is a cheeky web trivia app built in 4 days that allows users to test their knowledge of celebrities.',
-    info2: 'It has a simple and clean UI built in React that tracks a users score/data via Context API and persisted in a Node/Express backend database deployed to Heroku.',
+    info2: 'Built a clean UI developed in React that tracks a users score/data via Context API and persisted in a Node/Express backend database deployed to Heroku.',
     url: 'https://celeb-dead.netlify.com/',
     repo: 'https://github.com/jazz-code/Front-End', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
-    img: 'project.jpg',
-    title: '',
-    info: '',
-    info2: '',
+    img: 'droom.png',
+    title: 'DROOM',
+    info: 'DROOM, which means Dream in Dutch, helps job seekers find jobs and helps companies find qualified employees in a fun and innovative way. ',
+    info2: 'Built in React with hooks, using Redux as state management. The backend was developed with Node/Express, Postgres, and Jest Supertest',
     url: '',
     repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
   },
