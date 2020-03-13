@@ -50,7 +50,7 @@ export const projectsData = [
     title: 'DROOM',
     info: 'DROOM, which means Dream in Dutch, helps job seekers find jobs and helps companies find qualified employees in a fun and innovative way. ',
     info2: 'Built in React with hooks, using Redux as state management. The backend was developed with Node/Express, Postgres, and Jest Supertest',
-    url: '',
+    url: 'https://droom-job.netlify.com/home/',
     repo: 'https://github.com/lambda-bw-droom', // if no repo, the button will not show up
   },
 ];
