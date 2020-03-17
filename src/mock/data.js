@@ -21,6 +21,7 @@ export const aboutData = {
   paragraphOne: '',
   paragraphTwo: '',
   paragraphThree: '',
+  paragraphFour: '',
   resume: 'https://resume.creddle.io/resume/8hh4dzy7tmx', // if no resume, the button will not show up
 };
 
