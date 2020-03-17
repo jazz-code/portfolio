@@ -38,7 +38,7 @@ const About = () => {
             <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
               <div className="about-wrapper__info">
                 <p className="about-wrapper__info-text">
-                  {paragraphOne || "I'm a Software Developer with experience on both ends of the stack, focused on providing meaningful, genuine contributions to colleagues, stakeholders, and end-users."}
+                  {paragraphOne || "I'm a Software Developer with experience on both ends of the stack, focused on providing meaningful, genuine contributions to colleagues, stakeholders, and end-users"}
                 </p>
                 <p className="about-wrapper__info-text">
                   {paragraphTwo ||
