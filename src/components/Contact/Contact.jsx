@@ -16,15 +16,29 @@ const Contact = () => {
           <div className="contact-wrapper">
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
-            </p>
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              className="cta-btn cta-btn--resume"
-              href={email ? `mailto:${email}` : 'https://github.com/cobidev/react-simplefolio'}
-            >
-              {btn || "Let's Talk"}
-            </a>
+              </p>
+              <form action="https://getform.io/f/cef6bcd6-5106-40a9-a594-b13fd3521ec6" method="POST">
+              <p>
+                <label className="contact-label">
+                  Your Name: <input className="contact-input" type="text" name="name" />
+                  </label>
+              </p>
+              <p>
+                <label className="contact-label">
+                  Your Email: <input className="contact-input" type="email" name="email" />
+                  </label>
+              </p>
+              <p>
+                <label className="contact-label">
+                  Message: <textarea className="contact-textarea" name="message"></textarea>
+                  </label>
+              </p>
+              <p>
+                <button target="_blank" type="submit"  className="cta-btn cta-btn--resume"> 
+                {btn || "Let's Talk"}
+                </button>
+              </p>
+            </form>
           </div>
         </Fade>
       </Container>
