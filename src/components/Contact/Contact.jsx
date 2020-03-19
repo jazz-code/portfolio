@@ -20,17 +20,17 @@ const Contact = () => {
               <form action="https://getform.io/f/cef6bcd6-5106-40a9-a594-b13fd3521ec6" method="POST">
               <p>
                 <label className="contact-label">
-                  Your Name: <input className="contact-input" type="text" name="name" />
+                  <input placeholder="Your Name: " className="contact-input" type="text" name="name" />
                   </label>
               </p>
               <p>
                 <label className="contact-label">
-                  Your Email: <input className="contact-input" type="email" name="email" />
+                  <input placeholder="Your Email: " className="contact-input" type="email" name="email" />
                   </label>
               </p>
               <p>
-                <label className="contact-label">
-                  Message: <textarea className="contact-textarea" name="message"></textarea>
+                <label className="text-label">
+                  <textarea cols="22" rows="5" placeholder="Send me a message here..." className="contact-textarea" name="message"></textarea>
                   </label>
               </p>
               <p>
