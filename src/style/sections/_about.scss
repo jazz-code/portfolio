@@ -58,6 +58,7 @@
           font-size: 1.6rem;
           text-align: center;
         }
+      
 
         &--important {
           background: darken($secondary-color, 1%);
@@ -76,6 +77,19 @@
           }
         }
       }
+          &-skills {
+            text-align: left;
+            font-weight: bold;
+  
+            @include respond(tab-port) {
+              font-size: 1.5rem;
+              text-align: center;
+            }
+            @include respond(phone) {
+              font-size: 1.6rem;
+              text-align: center;
+            }
+          }
     }
   }
 }
