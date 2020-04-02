@@ -55,16 +55,15 @@ export const projectsData = [
   },
   {
     id: uuidv1(),
-    img: 'droom.png',
-    title: 'DROOM',
-    info: 'DROOM, which means Dream in Dutch, helps job seekers find jobs and helps companies find qualified employees in a fun and innovative way ',
-    info2: 'Tech Stack: React | Redux | Node/Express | Postgres | Jest | Supertest',
-    info3: '‣ Refactored existing code base from the ground up by creating main functionality',
-    info4: '‣ Built onboarding processing for a user to create/setup their profile',
-    info5: '‣ State management with Redux was learned and implemented',
-    info6: '‣ RESTful application with CRUD using axios',
-    url: 'https://droom-job.netlify.com/home/',
-    repo: 'https://github.com/lambda-bw-droom', // if no repo, the button will not show up
+    img: 'mud.png',
+    title: 'Multi-User-Dungeon (MUD)',
+    info: 'Players can read or view descriptions of rooms, objects, and actions performed in the virtual world',
+    info2: 'Tech Stack: React | Django | REST Framework| SQL',
+    info3: '‣ Learned Django with no experience of Django and implemented an entire Django backend within 4 days', 
+    info4: '‣ Created a world-map generating algorithm with randomly assorted rooms and items via pair-programming with another person',
+    info5: '‣ Deployed to heroku in a time crunch under pressure to finish the project within a few short days',
+    url: 'https://boring-liskov-58c04c.netlify.com/',
+    repo: 'https://github.com/CS24-Build-Week-1/Back-End', // if no repo, the button will not show up
   },
 ];
 
