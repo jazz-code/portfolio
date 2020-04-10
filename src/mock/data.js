@@ -40,7 +40,7 @@ export const projectsData = [
     info6: '',
     info7: '',
     info8: '',
-    url: 'https://well-done-h9vshme77.now.sh',
+    url: 'https://welldone-water.now.sh/',
     repo: 'https://github.com/labs17-WellDone/backend', // if no repo, the button will not show up
   },
   {
