@@ -42,6 +42,11 @@
       //       display: inline-block;
       //       font-size: 1rem;
             margin-bottom: 0.5rem;
+            input{
+              padding-left: 7px;
+              border-radius: 5px;
+              width: 15.2em;
+            }
     }
 
     .text-label {
@@ -60,8 +65,10 @@
       // background-color: transparent;
       // overflow-y: hidden;
       // padding: 1.5rem 0;
-      resize: both;
+      resize: none;
       min-width: 30%;
+      border-radius: 5px;
+      padding-left: 7px;
     }
 
     &__text {
