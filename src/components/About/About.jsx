@@ -31,7 +31,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <Iframe id='ifr' width='540' height='395' scrolling='no' style='background: url(//studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='//studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.73?autostart=1'/>
+              <Iframe id='ifr' width='540' height='395' scrolling='no' style='background: url(//studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='//studio.processingtogether.com/sp/pad/iframe/ro.9DMuq9xr7ds7I/rev.11?autostart=1'/>
               </div>
             </Fade>
           </Col>

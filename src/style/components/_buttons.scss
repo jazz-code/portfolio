@@ -23,19 +23,17 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  background-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  color: #fff;
+  // background-image: linear-gradient(
+  //   135deg,
+  //   $primary-color 0%,
+  //   $secondary-color 100%
+  // );
+  background-image: linear-gradient(43deg, #ff970f 0%, #C850C0 46%, #ff7424 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   border: 2px solid transparent;
-  border-image: linear-gradient(
-    135deg,
-    $primary-color 0%,
-    $secondary-color 100%
-  );
+  border-image: linear-gradient(43deg, #fffffe 0%, #fc82f4 46%, #ffa16b 100%);
   border-image-slice: 1;
   // Responsive Button hero style
   @include respond(phone) {

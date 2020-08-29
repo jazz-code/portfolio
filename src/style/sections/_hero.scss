@@ -18,22 +18,18 @@
   // If you want to set a background image on the hero section, uncomment these with yout custom image
   // <Iframe id='ifr' width='340' height='395' scrolling='no' style='background: url(//studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px; height:141%;' src='//studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.8?autostart=1'/>
 
-  // background: url("http://studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.73");
-  // background-position: center;
-  // background-size: cover; 
-  // .resp-container {
-  //   position: relative;
-  //   overflow: hidden;
-  //   padding-top: 56.25%;
-  //   .gol  {
-  //     position: absolute;
-  //     top: 0;
-  //     left: 0;
-  //     width: 100%;
-  //     height: 100%;
-  //     border: 0;
-  // }
-// }
+  background: url("
+  https://images.unsplash.com/photo-1537429149818-2d0e3e20857b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1400&q=80
+    ");
+  background-position: center;
+  background-size: cover; 
+
+@media (min-aspect-ratio: 16/9) {
+  .video-foreground { height: 300%; top: -100%; }
+}
+@media (max-aspect-ratio: 16/9) {
+  .video-foreground { width: 300%; left: -100%; }
+}
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
@@ -43,6 +39,7 @@
     font-weight: 700;
     margin-bottom: 3.2rem;
     text-align: left;
+    color: #fff;
 
     @include respond(tab-land) {
       font-size: 4rem;
