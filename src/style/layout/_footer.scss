@@ -6,7 +6,9 @@
   @include respond(phone) {
     border: 0px;
   }
-
+  .iframe{
+    margin: 0 auto;
+  }
   &__text {
     color: darken(white, 50%);
     font-size: 1.3rem;

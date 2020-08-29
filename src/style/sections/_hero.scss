@@ -16,11 +16,24 @@
   z-index: -1;
 
   // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // <Iframe id='ifr' width='340' height='395' scrolling='no' style='background: url(//studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px; height:141%;' src='//studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.8?autostart=1'/>
 
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
-
+  // background: url("http://studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.73");
+  // background-position: center;
+  // background-size: cover; 
+  // .resp-container {
+  //   position: relative;
+  //   overflow: hidden;
+  //   padding-top: 56.25%;
+  //   .gol  {
+  //     position: absolute;
+  //     top: 0;
+  //     left: 0;
+  //     width: 100%;
+  //     height: 100%;
+  //     border: 0;
+  // }
+// }
   @include respond(phone) {
     padding: 0rem $default-font-size;
   }
@@ -46,7 +59,7 @@
       font-size: 2.8rem;
     }
   }
-
+  
   .hero-cta {
     display: flex;
 

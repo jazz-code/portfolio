@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
+import Iframe from 'react-iframe'
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
@@ -21,7 +22,7 @@ const About = () => {
       setIsDesktop(false);
     }
   }, []);
-
+  // <AboutImg alt="profile picture" style={{"width":"20%"}} filename={img} />
   return (
     <section id="about">
       <Container>
@@ -30,7 +31,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <AboutImg alt="profile picture" filename={img} />
+                <Iframe id='ifr' width='540' height='395' scrolling='no' style='background: url(//studio.processingtogether.com/static/img/jun09/pad/connectingbar.gif) no-repeat center 60px;' src='//studio.processingtogether.com/sp/pad/iframe/ro.9mwk7tDqcA6AO/rev.73?autostart=1'/>
               </div>
             </Fade>
           </Col>
