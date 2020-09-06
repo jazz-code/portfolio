@@ -29,6 +29,10 @@
       align-items: center;
       justify-content: center;
 
+      @include respond(phone) {
+        height: 10%;
+        width: 100%;
+      }
       @include respond(tab-port) {
         padding-bottom: 6.4rem;
       }
