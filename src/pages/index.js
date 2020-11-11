@@ -15,6 +15,7 @@ export default () => {
         <title>{title || 'Gatsby Simplefolio'}</title>
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
+        <meta name="image" property="og:image" content="/src/images/portfolio.png"/>
       </Helmet>
       <App />
     </>
