@@ -6,16 +6,16 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../style/main.scss';
 
 export default () => {
-  const { title, lang, description } = headData;
+  const { title, lang, description, image } = headData;
 
   return (
     <>
       <Helmet>
         <meta charSet="utf-8" />
-        <title>{title || 'Gatsby Simplefolio'}</title>
-        <html lang={lang || 'en'} />
-        <meta name="description" content={description || 'Gatsby Simplefolio'} />
-        <meta name="image" property="og:image" content="/src/images/portfolio.png"/>
+        <title>{title}</title>
+        <html lang={lang} />
+        <meta name="description" content={description} />
+        <meta name="image" property="og:image" content={image}/>
         
         
         <meta property="og:type" content="website"/>
