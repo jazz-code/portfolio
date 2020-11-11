@@ -5,6 +5,7 @@ export const headData = {
   title: 'Anthony Rende', // e.g: 'Name | Developer'
   lang: 'en', // e.g: en, es, fr, jp
   description: 'Welcome to my portoflio', // e.g: Welcome to my website
+  image: '/src/images/portfolio.png'
 };
 
 // HERO DATA
@@ -83,7 +84,7 @@ export const footerData = {
     {
       id: uuidv1(),
       name: 'twitter',
-      url: 'https://www.twitter.com/rendeDev',
+      url: 'https://www.twitter.com/AnthonyRendeV',
     },
     // {
     //   id: uuidv1(),

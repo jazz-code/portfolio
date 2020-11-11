@@ -16,6 +16,19 @@ export default () => {
         <html lang={lang || 'en'} />
         <meta name="description" content={description || 'Gatsby Simplefolio'} />
         <meta name="image" property="og:image" content="/src/images/portfolio.png"/>
+        
+        
+        <meta property="og:type" content="website"/>
+        <meta property="og:url" content="https://anthonyrende.com/"/>
+        <meta property="og:title" content="Hi, my name is Anthony,I'm a Software Developer."/>
+        <meta property="og:description" content="Welcome to my portoflio"/>
+        <meta property="og:image" content="/src/images/portfolio.png"/>
+
+        <meta property="twitter:card" content="summary_large_image"/>
+        <meta property="twitter:url" content="https://anthonyrende.com/"/>
+        <meta property="twitter:title" content="Hi, my name is Anthony,I'm a Software Developer."/>
+        <meta property="twitter:description" content="Welcome to my portoflio"/>
+        <meta property="twitter:image" content="/src/images/portfolio.png"/>
       </Helmet>
       <App />
     </>
