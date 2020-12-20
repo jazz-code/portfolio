@@ -3,12 +3,13 @@ import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
 import Iframe from 'react-iframe';
 import Title from '../Title/Title';
+import GameOfLifeGIF from '../../images/game-of-life.gif';
 // import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume } = about;
+  const { paragraphOne, paragraphTwo, paragraphThree, paragraphFour, resume, url } = about;
   // ^ add in:img,
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -31,11 +32,7 @@ const About = () => {
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
               <div className="about-wrapper__image">
-                <Iframe
-                  src="https://www.openprocessing.org/sketch/955851/embed/"
-                  width="650"
-                  height="470"
-                />
+                <img src={GameOfLifeGIF} href={url} target="_blank" alt="Conway's Game of Life" />
               </div>
             </Fade>
           </Col>
