@@ -47,21 +47,22 @@ export const projectsData = [
     info7: '',
     info8: '',
     url: 'https://welldone-water.now.sh/',
-    repo: 'https://github.com/labs17-WellDone/backend', // if no repo, the button will not show up
+    repo: 'https://github.com/labs17-WellDone/backend',
   },
   {
     id: uuidv1(),
-    img: 'celebdoa.png',
-    title: 'Celeb Dead or Alive',
+    img: 'musicplayer.png',
+    title: 'Chill Hop Player',
     subtitle: 'Front-End',
     info:
-      'Celeb DOA is a cheeky web trivia app built in 4 days that allows users to test their knowledge of celebrities',
-    info2: 'Tech Stack: React | Node/Express | SCSS/SASS | SemantiucUI',
+      'Chill Hop Player streams unlicensed free music known as Chill Hop. Users have access to a library of songs with the option to purchase them on various platforms to support the artists',
+    info2: 'Tech Stack: React | SCSS/SASS ',
     info3:
-      '‣ Built a clean and simple UI with React that tracks a users score/data and persisted in a Node/Express backend database deployed to Heroku',
-    info4: '‣ State management using Context API & useState hook',
-    url: 'https://celeb-dead.netlify.com/',
-    repo: 'https://github.com/jazz-code/Front-End', // if no repo, the button will not show up
+      '‣ Built a responsive web app in React, with clean UI and smooth animations for a sleek user experience',
+    info4:
+      '‣ Implemented State management via React hooks to distribute and lift state when necessary across the app',
+    url: 'https://chillhop-player.netlify.app/',
+    repo: 'https://github.com/jazz-code/music-player',
   },
   {
     id: uuidv1(),
@@ -78,7 +79,7 @@ export const projectsData = [
     info5:
       '‣ Deployed to heroku in a time crunch under pressure to finish the project within a few short days',
     url: 'https://boring-liskov-58c04c.netlify.com/',
-    repo: 'https://github.com/CS24-Build-Week-1/Back-End', // if no repo, the button will not show up
+    repo: 'https://github.com/CS24-Build-Week-1/Back-End',
   },
 ];
 
